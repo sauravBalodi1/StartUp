@@ -1,0 +1,214 @@
+<html>
+    <head>
+<title>register</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
+        <style>
+            .d{
+                font-family: 'Amarante';font-size: 50px; 
+            }
+            .btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
+	}
+        </style>
+        
+    </head>
+    <body>
+        <div class="container container-fluid bg-info" style="background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/nike.jpg);">
+            <h2 class="d"><center>Dear Sir/Madam</center><span><br><center>Please enter Your Personal Information</center></span></h2>
+            <hr><br>
+            <form class="needs-validation"novalidate>
+              <div class="form-group">
+                  <label for="fname"><b>First Name:</b></label>
+      <input type="text" class="form-control" id="fname" placeholder="First Name" name="fname" required>
+     
+      <div class="invalid-feedback">Please enter a valid name.</div>
+                </div>
+            <div class="form-group">
+                  <label for="lname"><b>Last Name:</b></label>
+      <input type="text" class="form-control" id="lname" placeholder="Last Name" name="fname" required>
+     
+      <div class="invalid-feedback">Please enter a valid name.</div>
+                </div>
+                 <div class="form-group"><label for="gender"><b>Please enter your gender:</b></label>
+                <div class="form-check">
+  <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="optradio"><b>Male</b>
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="optradio"><b>Female</b>
+  </label>
+</div>
+                    <div class="form-check">
+  <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="optradio"><b>Other</b>
+  </label>
+</div>
+
+                </div>
+                <div class="form-group">
+                    <label for="number"><b>Phone Number:</b></label>
+                     <input type="number" class="form-control" id="number" placeholder="000-0000-000" name="number" required>
+     
+      <div class="invalid-feedback">Please enter a valid Phone number.</div>
+                </div>
+                <div class="form-group">
+                  <label for="address"><b>DOB:</b></label>
+      <input type="date" class="form-control" id="date" placeholder="dd/mm/yyyy" name="address" required>
+     
+      <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                  <label for="address"><b>Address:</b></label>
+      <input type="text" class="form-control" id="address" placeholder="Address" name="address" required>
+     
+      <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                  <label for="city"><b>City:</b></label>
+      <input type="text" class="form-control" id="City" placeholder="City" name="City" required>
+     
+      <div class="invalid-feedback">Please enter a valid city.</div>
+                </div>
+             <div class="form-group">
+                 <label for="sel1"><b>State:</b></label>
+  <select class="form-control" id="sel1">
+    <option>Andhra Pradesh</option>
+    <option>Arunachal Pradesh</option>
+    <option>Assam</option>
+    <option>Bihar</option>
+      <option>Chhattisgarh</option>
+      <option>Goa</option>
+      <option>Gujarat</option>
+      <option>Harayana</option>
+      <option>Himachal Pardesh</option>
+      <option>Jammu and Kashmir</option>
+      <option>Jharkhand</option>
+      <option>Karnataka</option>
+      <option>Kerala</option>
+      <option>Madhya Pardesh</option>
+      
+      <option>Maharashtra</option>
+      <option>Manipur</option>
+      <option>Meghalaya</option>
+      
+      <option>Mizoram</option>
+      <option>Nagaland</option>
+      <option>Odisha</option>
+      
+      <option>Punjab</option>
+      <option>Rajasthan</option>
+      
+      <option>Sikkim</option>
+      <option>Tamil Nadu</option>
+      <option>Telangana</option>
+      <option>Uttar Pardesh</option>
+      <option>Tripura</option>
+      <option>Uttrakhand</option>
+      <option>West Bengal</option>
+  </select>
+     
+      <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                 <div class="form-group">
+                  <label for="city"><b>Zip-Code:</b></label>
+      <input type="text" class="form-control" id="Zip-control" placeholder="Zip-Code" name="Zip-Code" required>
+     
+      <div class="invalid-feedback">Please enter a valid Zip-code.
+                     
+                     </div>
+                </div>
+                                 <div class="form-group">
+                  <label for="city"><b>Enter Your Profession:</b></label>
+      <input type="text" class="form-control" id="prof" placeholder="profession" name="prof" required>
+     
+      <div class="invalid-feedback">Mandatory
+                     
+                     </div>
+                </div>
+                <h2><center><b>Account Information</b></center></h2><hr><br>
+                 <div class="form-group">
+                  <label for="city"><b>Email</b></label>
+      <input type="email" class="form-control" id="Email" placeholder="Email" name="Email" required>
+     
+                     <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="form-group">
+                  <label for="city"><b>Password:</b></label>
+      <input type="password" class="form-control" id="password" placeholder="password" name="pass" required>
+     
+                     <div class="invalid-feedback">Please enter a valid password.</div>
+                </div>
+                <div class="form-group">
+                  <label for="city"><b> Confirm Password:</b></label>
+      <input type="password" class="form-control" id="cpassword" placeholder="Confirm Password" name="cpass" required>
+     <div class="valid-feedback" id="f"></div>
+                     <div class="invalid-feedback" >Please confirm password.</div>
+                </div>
+                <div class="form-group">
+                <a href="#" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw" required></i> LinkedIn</a>
+                     <div class="invalid-feedback" >Please link your Linknedin profile.</div>
+                </div>
+                
+                <button type="submit" class="btn btn-warning justify-content-center" onclick="pvalidation()" >Submit</button>
+            </form >
+          
+        </div>
+        <script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+        </script>
+        <script>
+        function pvalidation()
+            {
+                var p=password.value();
+                var c=cpawwsord.value();
+                if(p==c)
+                    {
+                        doucument.getElementById('cp').innerHtml="Password match!";
+                        
+                    }
+                else{
+                    doucument.getElementById('cp').innerHtml="Password  Does not match!";
+                        
+                }
+            }
+        </script>
+        
+    </body>
+</html>
